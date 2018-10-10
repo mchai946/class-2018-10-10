@@ -1,0 +1,15 @@
+---
+title: "Class Enrollments"
+author: "Maddie Chai"
+date: "10/10/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(dplyr)
+library(gov.1005.data)
+data <- readxl::read_xlsx("class_enrollment_summary_by_term_10.10.18.xlsx")
+```
+
